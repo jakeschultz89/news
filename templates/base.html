@@ -21,8 +21,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Articles</a>
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="{% url 'article_list' %}">Articles</a>
+              <a class="nav-link" href="{% url 'article_new' %}">New Article</a>
+              <!-- <a class="nav-link" href="#">About</a> -->
               {% if user.is_authenticated %}
                 <a class="nav-link" href="{% url 'password_change' %}">Change Password</a>
                 <a class="nav-link" href="{% url 'logout' %}">Logout</a>
