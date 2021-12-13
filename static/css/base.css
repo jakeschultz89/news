@@ -1,17 +1,12 @@
 * {
-    background-color: rgba(255, 255, 255, 0.879);
+    background-color: rgba(155, 155, 155, 0.879);
+    color: red;
 }
 body {
     font-family: Roboto, sans-serif;
+    color: red;
     
 }
 h1 {
-    color: black;
-}
-
-.blog-new {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column;
+    color: rgb(0, 0, 0);
 }
