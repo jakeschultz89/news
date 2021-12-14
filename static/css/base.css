@@ -1,12 +1,20 @@
 * {
-    background-color: rgba(155, 155, 155, 0.879);
-    color: red;
+    font-family: 'Newsreader', serif;
+    color: white;
+    background-color: rgb(148, 148, 148) !important;
 }
+
 body {
-    font-family: Roboto, sans-serif;
-    color: red;
-    
+    color: white;
+    background-color: rgb(148, 148, 148);
 }
-h1 {
-    color: rgb(0, 0, 0);
+
+.card-subtitle {
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
